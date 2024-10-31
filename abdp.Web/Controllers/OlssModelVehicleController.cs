@@ -16,11 +16,9 @@ namespace abdp.Web.Controllers
     {
         private readonly IOlssModelVehicleService _service;
 
-        public OlssModelVehicleController(
-            IOlssModelVehicleService bllService
-        )
+        public OlssModelVehicleController(IOlssModelVehicleService service)
         {
-            _service = bllService;
+            _service = service;
         }
 
         // GET: OlssModelVehicle
