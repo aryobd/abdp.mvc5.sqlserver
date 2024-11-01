@@ -1,4 +1,4 @@
-﻿using abdp.Service.IService;
+﻿using abdp.Service;
 using abdp.Service.Models;
 
 using abdp.Data.Entities;
@@ -10,7 +10,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace abdp.Service.Service
+namespace abdp.Service
 {
     public class OlssModelVehicleService : IOlssModelVehicleService
     {

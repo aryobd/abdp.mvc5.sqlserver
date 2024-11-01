@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace abdp.Service.IService
+namespace abdp.Service
 {
     public interface IOlssModelVehicleService
     {
